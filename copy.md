@@ -1,0 +1,2 @@
+<!-- Background Shadow -->
+<div class=" default-ltr-cache-1y1tnl9 egicmjq0" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%)" data-uia="nmhp-card-hero+gradient"></div>
