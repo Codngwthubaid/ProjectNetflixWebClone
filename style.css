@@ -107,4 +107,34 @@ select {
     justify-content: center;
     align-items: center;
     margin-top: 3vh;
+    position: relative;
+    column-gap: 1vw;
+}
+
+.email-started-flex input {
+   width: 23vw;
+   padding: 15px 10px;
+   color: gray;
+   border: 1px solid gray;
+   border-radius: 4px;
+}
+
+#button {
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    border: 1px solid red;
+    border-radius: 6px;
+    width: 13vw;
+}
+
+#button-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button img{
+    color: white;
+
 }
