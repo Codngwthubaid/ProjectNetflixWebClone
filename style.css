@@ -1,176 +1,39 @@
-@media screen and (min-width:1000px) and (max-width:1500px) {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
 
-
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
-
+@media screen and (min-width:50px) and (max-width:599px) {
 
     * {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
         font-family: 'Poppins', sans-serif;
+
     }
 
-    .main {
-        background-image: url(Netflix-Main-Img.jpg);
-        width: 100%;
-        position: relative;
-        height: 100vh;
+    body {
+        margin: 10px;
+        padding: 10px;
+
+    }
+
+    .top-potion {
+        background-image: url("Required Materials/Netflix-Main-Img.jpg");
+        width: 100vw;
+        height: 90vh;
         object-fit: cover;
         object-position: center center;
-    }
-
-    .main .box {
-        background-color: black;
-        opacity: 0.6;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-    }
-
-    .nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        padding: 30px 0px 0px 0px;
-        position: relative;
 
     }
 
-    #netflix-logo {
-        width: 150px;
-        color: rgb(242, 0, 0);
-        padding-right: 45px;
-    }
+.black-box{
+    border: 1px solid red;
+    height: 90vh;
+    width: 100vw;
+    background-color: black;
+    opacity: 0.5;
+}
 
-    .right-flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 20px;
-        padding-left: 45px;
-    }
-
-    select {
-        -webkit-appearance: none;
-        -moz-appearance: none;
-        appearance: none;
-        padding: 8px 16px;
-        cursor: pointer;
-        border-radius: 6px;
-        color: black;
-        border: 1px solid white;
-
-    }
-
-    #sign-in-button {
-        cursor: pointer;
-        padding: 8px 16px;
-        /* border: 1px solid red; */
-        box-sizing: border-box;
-        background-color: red;
-        border-radius: 6px;
-        font-size: 13px;
-        color: white;
-
-    }
-
-    .main-content-flex {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        margin-top: 33vh;
-        row-gap: 3vh;
-        position: relative;
-    }
-
-    .head-1 {
-        /* border: 1px solid pink; */
-        font-size: 2.5rem;
-        flex-wrap: wrap;
-        font-weight: bolder;
-    }
-
-    .head-2 {
-        /* border: 1px solid blue; */
-        font-size: 1.525rem;
-        font-weight: 400;
-    }
-
-    .head-3 {
-        /* border: 1px solid yellow; */
-        font-size: 1.125rem;
-        font-weight: 400;
-    }
-
-    .email-started-flex {
-        /* border: 1px solid red; */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 3vh;
-        position: relative;
-        column-gap: 1vw;
-    }
-
-    .email-started-flex input {
-        width: 23vw;
-        padding: 15px 10px;
-        color: gray;
-        border: 1px solid gray;
-        border-radius: 4px;
-    }
-
-    #button {
-        background-color: red;
-        color: white;
-        padding: 10px 10px;
-        font-size: large;
-        border-radius: 6px;
-        width: 13vw;
-    }
-
-    #button-flex {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #button img {
-        color: white;
-    }
-
-    .line {
-        background-color: #232323;
-        width: 100vw;
-        height: 10px;
-    }
-
-    .black-box {
-        width: 100vw;
-        height: 80vh;
-        background-color: black;
-    }
-
-    .black-box-flex {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid blue;
-    }
-
-    .black-box-left-flex {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        border: 1px solid red;
-    }
-
-    .black-box-right-flex {
-        border: 1px solid red;
-    }
+.option-values{
+    display: none;
+}
 
 }
